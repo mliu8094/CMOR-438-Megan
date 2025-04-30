@@ -23,7 +23,5 @@ A visual from Dr. Davila's CMOR 438/INDE 577 repository that outlines the percpt
 
 ## Files Included
 
-- `perceptron.py`: Core implementation using Scikit-learn
-- `transit_dataset.csv`: Dataset with urban transit and socioeconomic features
-- `visualization.ipynb`: Jupyter notebook with data exploration and model training
+- `Perceptron.ipynb`: Perceptron implementation
 - `README.md`: This documentation
