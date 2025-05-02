@@ -6,9 +6,9 @@ This directory contains an implementation of the linear regression algorithm, a 
 
 Linear regression aims to fit a straight line (or hyperplane in higher dimensions) that best describes the relationship between the input features and the target variable. It minimizes the error between predicted and actual values using a method called least squares. The resulting model can be used to make continuous predictions, such as estimating emissions based on city characteristics.
 
-A visual from Dr. Davila's CMOR 438/INDE 577 repository that outlines the percptron model:
+A visual from 356 DataScience showing the various elements of the linear regression model:
+![thumb@1024_2018-11-image27-1024x547](https://github.com/user-attachments/assets/b9953a98-e083-4301-b1f9-9875ca8ded85)
 
-<img width="661" alt="ThePerceptronImage (1)" src="https://github.com/user-attachments/assets/afc3b927-f739-42cb-ae42-1be1472925dc" />
 
 ### Algorithm
 
