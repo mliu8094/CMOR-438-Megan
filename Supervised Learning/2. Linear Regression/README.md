@@ -10,13 +10,14 @@ A visual from 356 DataScience showing the various elements of the linear regress
 ![thumb@1024_2018-11-image27-1024x547](https://github.com/user-attachments/assets/b9953a98-e083-4301-b1f9-9875ca8ded85)
 
 
-### Algorithm
+### Linear Regression Pipeline
 
 1. Initialize weights and bias to zero (or small random values).
 2. For each training sample:
    - Use the formula ŷ = mx + b to compute predictions.
    - Optimize weights (m in this case) and bias (b in this case) by minimizing the Mean Squared Error (MSE) between predicted and actual values
-3. Evaluate performance using metrics:
+3. Apply to test data
+4. Evaluate performance using metrics:
    - RMSE (Root Mean Squared Error): measures average prediction error
    - R^2 score: indicates the proportion of variance explained by the model
 
