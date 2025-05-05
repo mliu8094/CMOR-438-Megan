@@ -4,7 +4,7 @@ Creator: Megan Liu
 This repository contains the final project for CMOR 438, Data Science and Machine Learning, for the Spring 2025 semester at Rice University. The course is taught by Randy Davila and covers key supervised and unsupervised learning algorithms along with elements of reinforcement learning and optimization.
 
 ## Supervised and Unsupervised Learning
-There are two main directories contained in this repository. The first is supervised machine learning, where the model is trained on a labeled dataset. Data values are associated with known labels and we want to build a predictive model on new,unseen inputs. The second is unsupervised machine learning, where the model is trained on unlabeled data. In this case, the algorithm tries to find patterns or structuresin the data without any explicit guidance on what the output should be.
+There are two main directories contained in this repository. The first is supervised machine learning, where the model is trained on a labeled dataset. Data values are associated with known labels and we want to build a predictive model on new,unseen inputs. The second is unsupervised machine learning, where the model is trained on unlabeled data. In this case, the algorithm tries to find patterns or structures in the data without any explicit guidance on what the output should be.
 
 The required algorithms in each directory are as follows:
 ### Supervised Learning
