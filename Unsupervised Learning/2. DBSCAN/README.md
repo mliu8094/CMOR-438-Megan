@@ -1,4 +1,4 @@
-# K-Means Clustering
+# DBSCAN
 
 This directory contains an implementation of DBSCAN (Density-Based Spatial Clustering of Applications with Noise), an unsupervised clustering algorithm particularly effective for identifying clusters of arbitrary shape and handling noise in the dataset. In this directory, DBSCAN is used to find groupings using lifespan and unemployment rate that may not conform to well-separated, spherical clusters.
 
@@ -7,6 +7,9 @@ This directory contains an implementation of DBSCAN (Density-Based Spatial Clust
 DBSCAN is a density-based clustering algorithm that groups together points that are closely packed together (i.e., with many nearby neighbors), and marks points that lie alone in low-density regions as outliers or noise. Unlike k-Means, DBSCAN does not require the number of clusters to be specified beforehand and is capable of discovering clusters of various shapes and sizes.
 
 A visual comparing how DBSCAN and k-means clustering classify data sets:
+
+![0_xtgNRjU4w8hF318q](https://github.com/user-attachments/assets/16e009fc-61e7-4279-a0a2-1ac9a73425a9)
+
 
 ### Algorithm
 
