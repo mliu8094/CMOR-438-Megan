@@ -1,6 +1,6 @@
 # Logistic Regression
 
-This directory contains an implementation of the logistic regression algorithm, a supervised learning method used for binary classification. In this project, the algorithm is applied to a dataset combining public transit usage and socioeconomic indicators to predict whether a city is predict the quality of transit infrastructure based on GDP per capita. Mean values of various good quality transit infrstructure (1). For our purposes, if the average value of transit quality between the different modes are transit are above a certain threshold, then the transit quality is good (1) and otherwise it is poot (0).
+This directory contains an implementation of the logistic regression algorithm, a supervised learning method used for binary classification. In this project, the algorithm is applied to a dataset combining public transit usage and socioeconomic indicators to predict whether a city is predict the quality of transit infrastructure based on GDP per capita. Mean values of various good quality transit infrstructure (1). For our purposes, if the average value of transit quality between the different modes are transit are above a certain threshold, then the transit quality is good (1) and otherwise it is poor (0).
 
 ## Overview
 
@@ -8,6 +8,7 @@ Logistic regression is a linear model for classification that estimates the prob
 
 A visual from Mdeium that outlines the difference between the linear and logistic regression models:
 
+![1_lnWfrrvR8qkANHombhQMTQ](https://github.com/user-attachments/assets/6cf12b37-f686-4532-b9af-a5ff7a8af671)
 
 ### Algorithm
 
