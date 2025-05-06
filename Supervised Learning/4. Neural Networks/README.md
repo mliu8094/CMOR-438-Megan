@@ -12,7 +12,7 @@ A visual from ResearchGate that outlines the way that hidden layers work in neur
 ![1701657219604](https://github.com/user-attachments/assets/766f4d98-67d9-4c08-9273-d2ea2f629449)
 
 
-### Algorithm
+### Layers of Neural Network Implementation
 Let:
 - $x \in \mathbb{R}^9$: Input vector  
 - $W^{[l]},\ b^{[l]}$: Weights and biases for layer $l$  
