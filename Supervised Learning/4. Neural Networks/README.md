@@ -32,11 +32,13 @@ Let:
 ### ReLU
 
 ReLU (Rectified Linear Unit) is the most commonly used activation function in neural networks. It introduces non-linearity and is defined as:  
+$$
 \text{ReLU}(x) = 
 \begin{cases}
 x & \text{if } x > 0 \\
 0 & \text{if } x \leq 0
 \end{cases}
+$$
 
 ReLU helps prevent the vanishing gradient problem and allows models to converge faster by only activating positive signals.
 
