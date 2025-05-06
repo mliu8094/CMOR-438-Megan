@@ -1,6 +1,6 @@
 # K-Means Clustering
 
-This directory contains an implementation of the K-Means Clustering algorithm, an unsupervised learning technique used to split dataset into distinct groups based on feature similarity. I will be categorizing of some of a country's socioeconomic metrics, specifically lifespan and unemployment rate.
+This directory contains an implementation of the K-Means Clustering algorithm, an unsupervised learning technique used to split dataset into distinct groups based on feature similarity. I will be categorizing of some of a country's socioeconomic metrics, specifically lifespan and unemployment rate, to better understand a country' development and economic health.
 
 ## Overview
 
