@@ -1,6 +1,6 @@
 # K-Nearest Neighbors
 
-This directory contains an implementation of the K-Nearest Neighbors (KNN) algorithm, a simple, instance-based supervised learning method used for classification. We evaluated KNN's classification capabilities in class, so I am interested in exploring whether using KNN regression is ever predictive. As a result, tn this project, the KNN algorithm is applied to a dataset of socioeconomic and public transit indicators to classify what population of a country has completed secondary school based on metrics like GDP, internet access, population, etc.
+This directory contains an implementation of the K-Nearest Neighbors (KNN) algorithm, a simple, instance-based supervised learning method used for classification. We evaluated KNN's classification capabilities in class, so I am interested in exploring whether using KNN regression is ever predictive. As a result, in this project, the KNN algorithm is applied to a dataset of socioeconomic and public transit indicators to classify what population of a country has completed secondary school based on metrics like GDP, internet access, population, etc.
 
 ## Overview
 
