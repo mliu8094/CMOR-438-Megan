@@ -11,7 +11,6 @@ This implementation uses a fully connected feedforward neural network with ReLU 
 ### Algorithm
 
 Let:
-
 - $x \in \mathbb{R}^9$: Input vector  
 - $W^{[l]},\ b^{[l]}$: Weights and biases for layer $l$  
 - $z^{[l]} = W^{[l]} a^{[l-1]} + b^{[l]}$: Linear combination  
@@ -19,13 +18,13 @@ Let:
 - $\hat{y}$: Predicted output  
 
 1. Layer 1 (64 neurons, ReLU):
-
-   \[
+   $$
    z^{[1]} = W^{[1]}x + b^{[1]}
-   \]
-   \[
+   $$
+
+   $$
    a^{[1]} = \text{ReLU}(z^{[1]}) = \max(0, z^{[1]})
-   \]
+   $$
 
 2. Layer 2 (32 neurons, ReLU):
 
