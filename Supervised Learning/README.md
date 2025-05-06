@@ -11,7 +11,7 @@ Supervised learning can be categorized into:
 - Classification: Predicting a discrete label (e.g., is population over 5 million, yes or no)
 - Regression: Predicting a continuous value (e.g., population growth)
 
-## Common Algorithms
+## Some of the Algorithms Implemented in this Directory
 
 - Linear Regression: Predicts continuous values using a linear relationship
 - Logistic Regression: Classifies binary or multi-class outcomes
