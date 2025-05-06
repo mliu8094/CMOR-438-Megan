@@ -8,7 +8,7 @@ K-Means clustering seeks to divide n data points into k clusters in which each p
 
 A visual outlining how k-means clustering creates categories based on data:
 
-
+![0_VaT0CgPcagwFX1Az](https://github.com/user-attachments/assets/477bf772-97fe-480a-89e9-edf6f4718ce3)
 
 ### Algorithm
 
