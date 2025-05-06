@@ -8,9 +8,9 @@ PCA transforms the original correlated features into a set of linearly uncorrela
 
 This project uses PCA to reduce transit and socioeconomic datasets with many features to 2D or 3D for clustering and visualization purposes, and to assess the underlying structure of the data. Then, I will assess the effect of PCA by applying DBSCAN before and after.
 
-A visual outlining how k-means clustering creates categories based on data:
+A visual outlining the centering of reduced dimension data in 2D:
 
-
+![0_CgQFt5J1KWsl2ei1](https://github.com/user-attachments/assets/7d50fcf9-a138-4ed4-aede-778d7f442c9b)
 
 ### Algorithm
 
@@ -25,26 +25,20 @@ Let the data matrix be:
 - $X \in \mathbb{R}^{n \times d}$:  
   $n$ samples with $d$ features
 
-1. Standardization
-Center the data by subtracting the mean from each feature:
-- $\bar{X} = X - \mu$,  
-  where $\mu$ is the mean vector of shape $(1 \times d)$
+1. Standardization: Center data by subtracting the mean from each feature
+- $\bar{X} = X - \mu$, where $\mu$ is the mean vector of shape $(1 \times d)$
 
-2. Covariance Matrix
-Compute the covariance matrix to understand how features vary together:
+2. Covariance Matrix: Compute the covariance matrix to understand how features vary together
 - $C = \frac{1}{n - 1} \bar{X}^\top \bar{X}$
 
-3. Eigen Decomposition
-Compute eigenvalues and eigenvectors of the covariance matrix:
+3. Eigen Decomposition: Compute eigenvalues and eigenvectors of the covariance matrix
 - Solve $C v_i = \lambda_i v_i$,  
   where $\lambda_i$ are eigenvalues and $v_i$ are eigenvectors
 
-4. Select Top $k$ Principal Components
-Sort eigenvectors by descending eigenvalues and select the top $k$:
+4. Select Top $k$ Principal Components: Sort eigenvectors by descending eigenvalues and select the top $k$
 - Form matrix $V_k = [v_1, v_2, \dots, v_k] \in \mathbb{R}^{d \times k}$
 
-5. Project Data
-Transform the original data into the reduced subspace:
+5. Project Data: Transform the original data into the reduced subspace
 - $Z = \bar{X} \cdot V_k$,  
   where $Z \in \mathbb{R}^{n \times k}$ is the lower-dimensional representation
 
