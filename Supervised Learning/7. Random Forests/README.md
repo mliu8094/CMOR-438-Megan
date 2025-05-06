@@ -4,7 +4,7 @@ This directory contains an implementation of the Random Forest algorithm, an ens
 
 ## Overview
 
-A Random Forest is an ensemble of decision trees. Each tree is trained on a random subset of the data and a random subset of features, helping to reduce overfitting and improve generalization. The final prediction is made by averaging (for regression) or majority voting (for classification) across all the trees.
+A Random Forest is an ensemble of decision trees. Each tree is trained on a random subset of the data and a random subset of features, helping to reduce overfitting and improve generalization. The final prediction is made by averaging for regression or majority voting for classification across all the trees.
 
 Random Forests combine the simplicity of decision trees with the power of ensemble learning to improve prediction accuracy and robustness.
 
@@ -24,7 +24,7 @@ A visual from Medium outlining how the random forest model works:
 1. Bootstrap Sampling: For each tree, sample the training data with replacement (bootstrapping)
 2. Random Feature Selection: At each node split, choose a random subset of features to consider
 3. Grow Decision Tree: Fully grow the tree on the sampled data until a stopping condition is met
-4. Repeat Steps 1–3 for many iterations of trees
+4. Repeat Steps 1–3 for set number of iterations
 5. Predictions:
    - Regression: Average the predictions from all trees
    - Classification: Use majority vote

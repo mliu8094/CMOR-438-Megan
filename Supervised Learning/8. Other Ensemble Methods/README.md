@@ -4,7 +4,7 @@ This directory explores advanced ensemble methods, Boosting and Voting Regressio
 
 ## Overview
 
-Ensemble methods combine the predictions from multiple models to improve accuracy, reduce variance, and handle complex datasets more effectively. While bagging methods like Random Forest reduce variance by averaging independent models, boosting focuses on reducing bias by sequentially correcting errors made by previous models.
+Ensemble methods combine the predictions from multiple models to improve accuracy, reduce variance, and handle complex datasets more effectively. While methods Random Forest reduce variance by averaging independent models, boosting focuses on reducing bias by sequentially correcting errors made by previous models.
 
 ### Included Methods
 

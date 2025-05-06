@@ -4,7 +4,7 @@ This directory contains an implementation of Principal Component Analysis (PCA),
 
 ## Overview
 
-PCA transforms the original correlated features into a set of linearly uncorrelated components called principal components, ordered by the amount of variance they capture from the data. It achieves this by computing the eigenvectors of the data's covariance matrix.
+PCA transforms the original correlated features into a set of linearly uncorrelated components called principal components, ordered by the amount of variance they capture from the data by computing the eigenvectors of the data's covariance matrix.
 
 This project uses PCA to reduce transit and socioeconomic datasets with many features to 2D or 3D for clustering and visualization purposes, and to assess the underlying structure of the data. Then, I will assess the effect of PCA by applying DBSCAN before and after.
 
@@ -17,9 +17,9 @@ A visual outlining the centering of reduced dimension data in 2D:
 1. Standardize the data: Center the features by subtracting the mean and scale to unit variance
 2. Compute the covariance matrix of the standardized data
 3. Calculate the eigenvalues and eigenvectors of the covariance matrix
-4. Sort eigenvectors by decreasing eigenvalues to find the directions of maximum variance.
-5. Select the top k eigenvectors to form a new feature subspace.
-6. Project the data onto this subspace to obtain the reduced dataset.
+4. Sort eigenvectors by decreasing eigenvalues to find the directions of maximum variance
+5. Select the top k eigenvectors to form a new feature subspace
+6. Project the data onto this subspace to obtain the reduced dataset
 
 Let the data matrix be:
 - $X \in \mathbb{R}^{n \times d}$:  

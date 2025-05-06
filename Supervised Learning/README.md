@@ -4,7 +4,7 @@ This directory provides an overview of supervised learning algorithms, which is 
 
 ## Overview
 
-Supervised learning is a type of machine learning where an algorithm learns from labeled training data to make predictions. The data consists of input-output pairs, where the model tries to learn the mapping function from inputs, or features to outputs, or labels/targets.
+Supervised learning is a type of machine learning where an algorithm learns from labeled training data to make predictions. The data consists of input-output pairs, where the model tries to learn the mapping function from inputs, or features, to outputs, or labels/targets.
 
 Supervised learning can be categorized into:
 

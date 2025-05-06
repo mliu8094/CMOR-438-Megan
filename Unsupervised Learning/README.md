@@ -12,7 +12,7 @@ Unlike supervised learning, unsupervised learning does not predict target values
 
 - Clustering: Grouping similar data points (e.g., customer segmentation)
 - Dimensionality Reduction: Reducing the number of features while preserving important structure (e.g., PCA for visualization)
-- Anomaly Detection: Identifying data points that deviate significantly from the norm
+- Anomaly Detection: Identifying data points that significantly deviate from the norm
 
 ## Common Algorithms
 

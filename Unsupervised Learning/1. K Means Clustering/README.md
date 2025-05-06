@@ -4,7 +4,7 @@ This directory contains an implementation of the K-Means Clustering algorithm, a
 
 ## Overview
 
-K-Means clustering seeks to divide n data points into k clusters in which each point belongs to the cluster with the nearest mean (centroid). It minimizes the within-cluster sum of squares, often referred to as inertia. The algorithm works best when clusters are spherical and well-separated, and it's widely used to define categories based on data.
+K-Means clustering seeks to divide n data points into k clusters in which each point belongs to the cluster with the nearest mean, or centroid. It minimizes the sum of squares within a cluster, which is also often called inertia. The algorithm works best when clusters are spherical and well-separated, and it's used to define categories based on data.
 
 A visual outlining how k-means clustering creates categories based on data:
 
