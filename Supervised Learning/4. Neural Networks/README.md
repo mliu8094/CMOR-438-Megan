@@ -12,8 +12,8 @@ This implementation uses a fully connected feedforward neural network with ReLU 
 
 Let:
 
-- \( x \in \mathbb{R}^9 \): Input vector  
-- \( W^{[l]}, b^{[l]} \): Weights and biases for layer \( l \)  
+- x \in \mathbb{R}^9: Input vector  
+- W^{[l]}, b^{[l]}: Weights and biases for layer l
 - \( z^{[l]} = W^{[l]}a^{[l-1]} + b^{[l]} \): Linear combination  
 - \( a^{[l]} \): Activation of layer \( l \)  
 - \( \hat{y} \): Predicted output  
@@ -63,14 +63,15 @@ ReLU helps prevent the vanishing gradient problem and allows models to converge 
 
 The performance of the neural network model is evaluated using **Mean Squared Error (MSE)**, a standard loss function for regression tasks. MSE measures the average squared difference between the predicted values and the actual target values.
 
-\[
+$$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-\]
+$$
 
 Where:
-- \( y_i \) is the true value,
-- \( \hat{y}_i \) is the predicted value,
-- \( n \) is the number of samples.
+
+- y_i is the actual (true) value  
+- \hat{y}_i is the predicted value  
+- n is the number of data points  
 
 A lower MSE indicates better model performance, since predictions are closer to the actual values.
 
