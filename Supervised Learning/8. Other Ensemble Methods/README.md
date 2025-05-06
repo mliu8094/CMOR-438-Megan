@@ -17,7 +17,7 @@ Ensemble methods combine the predictions from multiple models to improve accurac
 - Can handle non-linear data well
 - Works well with tabular datasets
 
-A visual outlining XGBoost from GeeksforGeeks:
+A visual outlining XGBoost for classification from GeeksforGeeks:
 
 ![Bagging](https://github.com/user-attachments/assets/a1c0892b-0f75-46a7-bb3e-77307cde8375)
 
