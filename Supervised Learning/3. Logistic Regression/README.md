@@ -6,7 +6,7 @@ This directory contains an implementation of the logistic regression algorithm, 
 
 Logistic regression is a linear model for classification that estimates the probability that a given input point belongs to a particular class. Instead of using a step function like the perceptron, logistic regression uses the sigmoid function to map predicted values to probabilities between 0 and 1. The model is trained by minimizing the log-loss using gradient descent.
 
-A visual from Mdeium that outlines the difference between the linear and logistic regression models:
+A visual from Medium that outlines the difference between the linear and logistic regression models:
 
 ![1_lnWfrrvR8qkANHombhQMTQ](https://github.com/user-attachments/assets/6cf12b37-f686-4532-b9af-a5ff7a8af671)
 
