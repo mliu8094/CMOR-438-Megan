@@ -7,6 +7,10 @@ This directory contains an implementation of a basic neural network built using 
 A neural network is a supervised learning algorithm inspired by the structure of the human brain. It consists of layers of interconnected nodes (neurons), which can learn complex patterns by adjusting weights and biases through a process called backpropagation. Each neuron applies a mathematical operation to its inputs and passes the result through an activation function.
 
 This implementation uses a fully connected feedforward neural network with ReLU activations in the hidden layers.
+A visual from ResearchGate that outlines the way that hidden layers work in neural networks:
+
+![1701657219604](https://github.com/user-attachments/assets/766f4d98-67d9-4c08-9273-d2ea2f629449)
+
 
 ### Algorithm
 Let:
