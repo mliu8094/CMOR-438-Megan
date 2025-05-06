@@ -8,6 +8,10 @@ A Random Forest is an ensemble of decision trees. Each tree is trained on a rand
 
 Random Forests combine the simplicity of decision trees with the power of ensemble learning to improve prediction accuracy and robustness.
 
+A visual from Medium outlining how the random forest model works:
+
+![1_i0o8mjFfCn-uD79-F1Cqkw](https://github.com/user-attachments/assets/34838461-ee45-40e5-8495-2d455d4cb442)
+
 ### Characteristics about the Random Forest Model
 
 - Reduces variance from single decision trees
