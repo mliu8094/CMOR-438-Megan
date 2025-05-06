@@ -19,7 +19,7 @@ A visual from Medium outlining how the random forest model works:
 - Can estimate feature importance
 - Works for both classification and regression
 
-## Algorithm
+### Algorithm
 
 1. Bootstrap Sampling: For each tree, sample the training data with replacement (bootstrapping)
 2. Random Feature Selection: At each node split, choose a random subset of features to consider
@@ -29,7 +29,7 @@ A visual from Medium outlining how the random forest model works:
    - Regression: Average the predictions from all trees
    - Classification: Use majority vote
 
-## Evaluation Metrics
+### Evaluation Metrics
 
 For regression, the following metrics are commonly used:
 - Mean Squared Error (MSE)
