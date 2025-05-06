@@ -6,9 +6,9 @@ This directory contains an implementation of the perceptron algorithm, a supervi
 
 The perceptron is a type of linear classifier that learns a weight vector to separate data points into two classes using a linear decision boundary. It computes a weighted sum of the input features and passes it through a sign activation function. It iteratively updates the weights based on errors in prediction:
 
-A visual from Dr. Davila's CMOR 438/INDE 577 repository that outlines the percptron model:
+A visual from Medium that outlines the difference between the linear and logistic regression models:
 
-<img width="661" alt="ThePerceptronImage (1)" src="https://github.com/user-attachments/assets/afc3b927-f739-42cb-ae42-1be1472925dc" />
+
 
 ### Algorithm
 
