@@ -59,5 +59,5 @@ Voting Regression combines predictions from multiple different regression models
 
 ## Files Included
 
-- `EnsembleMethods.ipynb`: Implementation of random forests
+- `EnsembleMethods.ipynb`: Implementation of boosting and voting regression
 - `README.md`: This documentation
