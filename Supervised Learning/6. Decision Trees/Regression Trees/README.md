@@ -4,14 +4,15 @@ This directory contains an implementation of decision and regression trees, whic
 
 ## Overview
 
-Decision trees are models that split data into regions based on feature values. Each internal node represents a decision (or test) on a feature, each branch represents the outcome of the test, and each branching node represents a final output or prediction.
+Decision trees are models that split data into regions based on feature values. Each internal node represents a decision (or test) on a feature, each leaf node represents the outcome of the test, and each branching node represents a final output or prediction.
 
-In regression trees, instead of predicting class labels, the model predicts a continuous value, typically by averaging the target variable in each leaf.
+In regression trees, instead of predicting class labels, the model predicts a continuous value, typically by averaging the target variables in each leaf.
 
 ### Visual Example
 
 A visual of a regression tree that splits the data based on conditions of feature values:
 
+![structure-of-a-decision-tree](https://github.com/user-attachments/assets/72ed0c6e-1b15-4b09-8699-610d6bfb5e76)
 
 ## Algorithm
 
@@ -25,12 +26,11 @@ A visual of a regression tree that splits the data based on conditions of featur
    - A maximum depth is reached,
    - The number of samples is too small,
    - Or no further gain can be achieved
-6. Prediction is the mean value of target variables in the corresponding branching node
+6. Prediction is the mean value of target variables in the corresponding leaf node
 
 ## Loss Function
 
 For regression, decision trees typically minimize the **Mean Squared Error (MSE)**:
-
 $$
 \text{MSE} = \frac{1}{N} \sum_{i=1}^N (y_i - \hat{y}_i)^2
 $$
@@ -49,6 +49,5 @@ Evaluation metrics for decision or regression trees include:
 
 ## Files Included
 
-- `DecisionTreeRegressor.ipynb`: Main implementation of regression tree
+- `DecisionTree.ipynb`: Implementation of decision/regression tree
 - `README.md`: This documentation
-- `dataset.csv`: Example dataset used to train and test the model
