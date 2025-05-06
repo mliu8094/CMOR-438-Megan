@@ -13,9 +13,13 @@ Ensemble methods combine the predictions from multiple models to improve accurac
 
 ### Characteristics
 
-- High accuracy
-- Handles non-linear data well
+- Higher accuracy
+- Can handle non-linear data well
 - Works well with tabular datasets
+
+A visual outlining XGBoost from GeeksforGeeks:
+
+![Bagging](https://github.com/user-attachments/assets/a1c0892b-0f75-46a7-bb3e-77307cde8375)
 
 ## Boosting
 
@@ -47,11 +51,11 @@ Voting Regression combines predictions from multiple different regression models
 ### Types
 - Hard Voting: Used for classification
 - Soft Voting (Averaging):
-  - Takes the average of predictions from multiple models such as:
-        - Linear Regression
-        - Decision Tree Regressor
-        - Random Forest
-        - K-Nearest Neighbors Regressor
+  - Takes the average of predictions from multiple models such as:  
+        - Linear Regression  
+        - Decision Tree Regressor  
+        - Random Forest  
+        - K-Nearest Neighbors Regressor  
 
 ## Files Included
 
