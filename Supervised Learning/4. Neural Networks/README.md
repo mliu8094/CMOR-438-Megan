@@ -18,20 +18,14 @@ Let:
 - $\hat{y}$: Predicted output  
 
 1. Layer 1 (64 neurons, ReLU):
-   $z^{[1]} = W^{[1]}x + b^{[1]}$
-
+   $$z^{[1]} = W^{[1]}x + b^{[1]}$
    $a^{[1]} = \text{ReLU}(z^{[1]}) = \max(0, z^{[1]})$
 
 2. Layer 2 (32 neurons, ReLU):
-
-   \[
-   z^{[2]} = W^{[2]}a^{[1]} + b^{[2]}
-   \]
-   \[
-   a^{[2]} = \text{ReLU}(z^{[2]}) = \max(0, z^{[2]})
-   \]
-
-3. Output Layer (1 neuron, Sigmoid):
+   $$z^{[2]} = W^{[2]}a^{[1]} + b^{[2]}$$
+   $a^{[2]} = \text{ReLU}(z^{[2]}) = \max(0, z^{[2]})$
+   
+4. Output Layer (1 neuron, Sigmoid):
 
    \[
    z^{[3]} = W^{[3]}a^{[2]} + b^{[3]}
