@@ -9,7 +9,6 @@ A neural network is a supervised learning algorithm inspired by the structure of
 This implementation uses a fully connected feedforward neural network with ReLU activations in the hidden layers.
 
 ### Algorithm
-
 Let:
 - $x \in \mathbb{R}^9$: Input vector  
 - $W^{[l]},\ b^{[l]}$: Weights and biases for layer $l$  
