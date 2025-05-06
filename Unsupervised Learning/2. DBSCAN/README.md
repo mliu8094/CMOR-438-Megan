@@ -6,7 +6,7 @@ This directory contains an implementation of DBSCAN (Density-Based Spatial Clust
 
 DBSCAN is a density-based clustering algorithm that groups together points that are closely packed together (i.e., with many nearby neighbors), and marks points that lie alone in low-density regions as outliers or noise. Unlike k-Means, DBSCAN does not require the number of clusters to be specified beforehand and is capable of discovering clusters of various shapes and sizes.
 
-A visual outlining how k-means clustering creates categories based on data:
+A visual comparing how DBSCAN and k-means clustering classify data sets:
 
 ### Algorithm
 
